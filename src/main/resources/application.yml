@@ -6,6 +6,6 @@ server:
 
 dollarOfficial: 6.96
 
-greet: "%s. Pregúntate si lo que estás haciendo hoy te acerca al lugar en el que quieras estar manana"
-greet1: "Pregúntate si lo que estás haciendo hoy te acerca al lugar en el que quieras estar manana"
-greet2: "Ask yourself if ehat you are doing today is bringing you closer to where you want to be tomorrow"
+greetWithName: "%s. Pregúntate si lo que estás haciendo hoy te acerca al lugar en el que quieras estar manana"
+greet: "Pregúntate si lo que estás haciendo hoy te acerca al lugar en el que quieras estar manana"
+greetInEnglish: "Ask yourself if ehat you are doing today is bringing you closer to where you want to be tomorrow"

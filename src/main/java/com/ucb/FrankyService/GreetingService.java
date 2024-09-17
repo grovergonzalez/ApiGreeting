@@ -6,19 +6,17 @@ import org.springframework.stereotype.Service;
 @Service
 public class GreetingService {
 
-    @Value("${greet1}")
-    private String greet;
     @Value("${greet}")
+    private String greet;
+    @Value("${greetWithName}")
     private String greetWithName;
-    @Value("${greet2}")
+    @Value("${greetInEnglish}")
     private String greetInEnglish;
     public String getGreeting(){
-
         return greet;
     }
 
     public String getGreetingWithName(String name) {
-
         return String.format(greetWithName, name);
     }
     public String getGreetingInEnglish(String lang){
